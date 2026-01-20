@@ -1,0 +1,8 @@
+# Install FastAPI core framework
+pip install fastapi
+
+# Install Uvicorn server
+pip install uvicorn
+
+# Install Loguru for logging
+pip install loguru
