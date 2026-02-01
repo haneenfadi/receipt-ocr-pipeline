@@ -1,3 +1,3 @@
 ### Run
-uvicorn src.api:app --reload
-
+uvicorn src.app.api:app
+streamlit run src/app/streamlit.py
