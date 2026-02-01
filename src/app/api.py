@@ -49,7 +49,6 @@ class IPBlockMiddleware(BaseHTTPMiddleware):
 
         logger.info(f"client_ip: {client_ip}")
 
-        # client_ip = "192.168.1.1"
         is_whitelisted = is_ip_whitelisted(client_ip)
         logger.info(f"is_whitelisted: {is_whitelisted}")
 
