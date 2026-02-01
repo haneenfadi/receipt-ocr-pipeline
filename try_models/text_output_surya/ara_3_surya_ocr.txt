@@ -1,0 +1,29 @@
+
+GAD
+Order #
+CASH
+543
+Date
+02:42 PM
+22/05/2022
+Cashier
+To Go
+Total
+Qty U.P
+Item
+8.00
+س فول-بالصلصة
+1X 8.00
+9.00
+س بطاطس-شيبسي
+1X 9.00
+قرص فالثفل بالسمسم
+15.00
+5 X 3.00
+32.00
+Net Sales
+Sales Tax
+TOTAL DUE
+32.00
+Have a nice day!
+الاسعار شامله الضريبة
