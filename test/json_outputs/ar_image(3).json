@@ -1,0 +1,22 @@
+{
+  "store_name": "GAD",
+  "receipt_number": "543",
+  "date": "22/05/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "من فول-بالصلصة",
+      "quantity": "1"
+    },
+    {
+      "item_name": "من بطاطس-شيبسي",
+      "quantity": "1"
+    },
+    {
+      "item_name": "قرص فلافل بالسمسم",
+      "quantity": "5"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "32.00"
+}

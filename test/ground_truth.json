@@ -1,0 +1,150 @@
+[
+    {
+        "image": "ar_image(1).jpg",
+        "store_name": "Hyper Shiba",
+        "receipt_number": "194",
+        "date": "27/04/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "ليبتون شاي ناعم ٢٥٠ جم",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "32.00"
+        
+    },
+    {
+    "image": "ar_image(2).jpg",
+    "store_name": "مطعم ليالي الشام",
+    "receipt_number": "466",
+    "date": "19/12/2022",
+    "currency": null,
+    "items": [
+        {
+            "item_name": "طبق بطاطس بـ15",
+            "quantity": "1"
+        },
+        {
+            "item_name": "سندوتش فلافل صاج",
+            "quantity": "1"
+        }
+    ],
+    "taxes": null,
+    "total_amount": "40"
+    },
+    {
+        "image": "ar_image(3).jpg",
+        "store_name": "GAD",
+        "receipt_number": "543",
+        "date": "22/05/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name":"س فول-بالصلصة",
+                "quantity": "1"
+            },
+            {
+                "item_name": " س بطاطس-شيبسي",
+                "quantity": "1"
+            },
+            {
+                "item_name": "قرص فلافل بالسمسم",
+                "quantity": "5"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "32.00"
+    },
+    {
+        "image": "ar_image(4).png",
+        "store_name": "حلواني العبد",
+        "receipt_number": "264613805",
+        "date": "28/04/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name":"علبة مشكلة 2 ك",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "13.10",
+        "total_amount": "275.00"
+    }
+    ,
+    {
+        "image": "ar_image(5).jpg",
+        "store_name": "مطعم مشويات القصر",
+        "receipt_number": "33624",
+        "date": "12/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "باكيت بطاطس",
+                "quantity": "1"
+            },
+            {
+                "item_name": "كفته كندوز",
+                "quantity": "0.75"
+            },
+            {
+                "item_name": "وجبة طرب",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ممبار",
+                "quantity": "0.25"
+            },
+            {
+                "item_name": "بيبسي كانز",
+                "quantity": "2"
+            },
+            {
+                "item_name": "ارز شعرية",
+                "quantity": "1"
+            },
+            {
+                "item_name": "مياة صغيرة",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "0",
+        "total_amount": "384.45"
+    },
+    {
+        "image": "ar_image(6).jpg",
+        "store_name": "كشري التحرير",
+        "receipt_number": "314",
+        "date": "21/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "علبة كينج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "عدس صغيرة",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "5.16",
+        "total_amount": "42.01"
+    },
+    {
+        "image": "ar_image(7).jpg",
+        "store_name": "Caribou Coffee",
+        "receipt_number": "90535",
+        "date": "23/10/2021",
+        "currency": "LE",
+        "items": [
+            {
+                "item_name": "Espresso L",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "4.67",
+        "total_amount": "38.00"
+    }
+
+]

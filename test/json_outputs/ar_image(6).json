@@ -1,0 +1,18 @@
+{
+  "store_name": "كشري التحرير",
+  "receipt_number": "314",
+  "date": "21/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "علبه كيلج",
+      "quantity": "1"
+    },
+    {
+      "item_name": "عدس صغيرة",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "5.16",
+  "total_amount": "42.01"
+}

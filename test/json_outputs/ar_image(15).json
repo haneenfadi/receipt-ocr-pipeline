@@ -1,0 +1,26 @@
+{
+  "store_name": "لحوم البحرى",
+  "receipt_number": "69",
+  "date": "16/09/2022",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "مفروم كندوز",
+      "quantity": "0.61"
+    },
+    {
+      "item_name": "خضار كندوز",
+      "quantity": "1.26"
+    },
+    {
+      "item_name": "انتركوت كندوز",
+      "quantity": "0.52"
+    },
+    {
+      "item_name": "ريب اي كندوز",
+      "quantity": "1.77"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "788.39"
+}

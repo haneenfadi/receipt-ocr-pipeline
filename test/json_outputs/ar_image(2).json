@@ -1,0 +1,18 @@
+{
+  "store_name": "مطعم ليالي الشام",
+  "receipt_number": "466",
+  "date": "19/12/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "طبق بطاطس بـ15",
+      "quantity": "1"
+    },
+    {
+      "item_name": "سندوتش فلافل صاح",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "40"
+}

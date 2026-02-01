@@ -1,0 +1,54 @@
+{
+  "store_name": "سوبر مارکت الدنيا بخير",
+  "receipt_number": null,
+  "date": "15/12/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "شبيسي عائلي",
+      "quantity": "1"
+    },
+    {
+      "item_name": "جبنه شيدر طبيعي",
+      "quantity": "0.225"
+    },
+    {
+      "item_name": "ياميش كاجو محمص ٢١٠",
+      "quantity": "0.19"
+    },
+    {
+      "item_name": "شيكولاته كيت كات ٢ صايع ٤+١",
+      "quantity": "1"
+    },
+    {
+      "item_name": "المراعي زبادي ١٠٠ جم بالخوخ",
+      "quantity": "4"
+    },
+    {
+      "item_name": "المراعي حليب ٢٠٠ مل بالموز جدر",
+      "quantity": "2"
+    },
+    {
+      "item_name": "المراعي حليب ١,٥ لتر كامل الدسم",
+      "quantity": "1"
+    },
+    {
+      "item_name": "دانون دانيت شيكولاته ٧٠ جم",
+      "quantity": "4"
+    },
+    {
+      "item_name": "سن نوب عصير اناناس ٢٥٠ جم",
+      "quantity": "2"
+    },
+    {
+      "item_name": "بيكدر شيكولاته ٣٠ جم",
+      "quantity": "1"
+    },
+    {
+      "item_name": "جيلي ساور ٣٥ جم",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "190.50"
+}
