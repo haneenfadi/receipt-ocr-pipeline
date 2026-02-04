@@ -2,9 +2,11 @@ import streamlit as st
 import requests
 from PIL import Image
 import os
+from dotenv import load_dotenv
 
-IMAGE_DIR = "stored_receipts"
-os.makedirs(IMAGE_DIR, exist_ok=True)
+load_dotenv()
+
+AUTH_PASSWORD = os.environ.get("API_AUTH_PASSWORD", "")
 
 st.set_page_config(
     page_title="Receipt Data Extraction System",
@@ -58,17 +60,20 @@ with col1:
 
                     files = {
                         "file": ("receipt.jpg", uploaded_file, "image/jpeg")}
+                    headers = {
+                        "X-API-Password": f"{AUTH_PASSWORD}"
+                    }
                     response = requests.post(
                         "http://localhost:8000/api/v1/receipt_parser/upload",
                         files=files,
-                        timeout=30
+                        headers=headers,
+                        timeout=30,
+
                     )
 
                     if response.status_code == 200:
-                        data = response.json()
-                        result = data.get("result", {})
-
-                        # update extracted_data in session_state
+                        result = response.json()
+                        
                         st.session_state.extracted_data = {
                             "store_name": result.get("store_name", ""),
                             "receipt_number": result.get("receipt_number", ""),
@@ -79,9 +84,6 @@ with col1:
                             "items": result.get("items", []),
                         }
 
-                        processing_time = data.get("processing_time", "")
-                        st.success(
-                            f"Extraction completed successfully ({processing_time})")
                         st.rerun()
                     else:
                         st.error(
