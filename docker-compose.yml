@@ -1,0 +1,12 @@
+services:
+  receipt-parser:
+    build:
+      context: .
+    container_name: receipt-parser
+    ports:
+      - "8000:8000"
+    env_file:
+      - src/.env
+
+    restart: always
+

@@ -1,8 +1,33 @@
-# Install FastAPI core framework
-pip install fastapi
+# FastAPI core framework
+fastapi==0.128.0
 
-# Install Uvicorn server
-pip install uvicorn
+# Uvicorn server
+uvicorn==0.40.0
 
-# Install Loguru for logging
-pip install loguru
+# Logging
+loguru==0.7.3
+
+# Mistral AI SDK
+mistralai==1.10.0
+
+# Data validation 
+pydantic==2.12.5
+pydantic-settings==2.12.0
+
+# Image processing
+pillow==10.4.0
+opencv-python-headless==4.11.0.86
+numpy==2.0.2
+
+# Streamlit UI
+Streamlit==1.41.1
+
+# File upload handling
+python-multipart==0.0.21
+
+# Environment variables
+python-dotenv==1.2.1
+
+# Database
+SQLAlchemy==2.0.45
+psycopg2-binary==2.9.10
