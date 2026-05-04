@@ -8,8 +8,8 @@ class ReceiptDatabase:
         self.db_name = db_name
         self.create_tables()
 
-    def get_connection(self):
-        return sqlite3.connect(self.db_name)
+    # def get_connection(self):
+    #     return sqlite3.connect(self.db_name)
 
     # =========================
     # CREATE TABLES

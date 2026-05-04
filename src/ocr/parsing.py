@@ -1,7 +1,7 @@
 import json
 import os
 import re
-
+import requests
 from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=r"src\.env")
@@ -14,7 +14,7 @@ def parse_receipt_with_groq(ocr_text):
     Parse receipt using Groq API (FREE tier available)
     Get API key: https://console.groq.com
     """
-    import requests
+    
 
     prompt = f"""Extract receipt information from the OCR text and return ONLY valid JSON with no additional text:
 
@@ -56,21 +56,27 @@ Extract the main store or brand name from the receipt header or logo.
 OCR Text:
 {ocr_text}"""
 
-    response = requests.post(
+    try:
+      response = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
+          "Authorization": f"Bearer {api_key}",
+          "Content-Type": "application/json"
         },
         json={
-            "model": "llama-3.3-70b-versatile",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.1
-        }
-    )
-
-    result = response.json()
-    content = result['choices'][0]['message']['content']
+          "model": "llama-3.3-70b-versatile",
+          "messages": [{"role": "user", "content": prompt}],
+          "temperature": 0.1
+        },
+        timeout=(10, 90),
+      )
+      response.raise_for_status()
+      result = response.json()
+      content = result["choices"][0]["message"]["content"]
+    except requests.Timeout as exc:
+      raise RuntimeError("Groq parsing request timed out") from exc
+    except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
+      raise RuntimeError("Failed to parse receipt with Groq API") from exc
 
     # Extract JSON from response
     json_match = re.search(r'\{.*\}', content, re.DOTALL)

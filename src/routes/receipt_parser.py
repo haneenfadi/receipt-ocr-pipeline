@@ -1,18 +1,14 @@
 from fastapi import APIRouter, UploadFile, File
 import time
 from loguru import logger
-from src.ocr.mistral_ocr import  smart_ocr
+from src.ocr.mistral_ocr import smart_ocr
 from src.ocr.parsing import parse_receipt_with_groq
 from db.database import ReceiptDatabase
 from datetime import datetime
 import os
 from src.utils.schema import ReceiptOCRResult
-from fastapi import Header, HTTPException
-from dotenv import load_dotenv
-
-load_dotenv()
-
-AUTH_PASSWORD = os.environ.get("API_AUTH_PASSWORD", "")
+from fastapi import Depends
+from src.routes.auth_router import get_current_user
 
 router = APIRouter(
     prefix="/api/v1/receipt_parser",
@@ -25,13 +21,13 @@ os.makedirs(IMAGE_DIR, exist_ok=True)
 
 
 @router.post("/upload", response_model=ReceiptOCRResult)
-async def extract_text_from_receipt(file: UploadFile = File(...), x_api_password: str = Header(...)):
-    
-    if x_api_password != AUTH_PASSWORD:
-        raise HTTPException(status_code=401, detail="Unauthorized")
+async def extract_text_from_receipt(
+    file: UploadFile = File(...),
+    current_user: dict = Depends(get_current_user),
+):
     start_time = time.perf_counter()
 
-    file_bytes = await file.read()   
+    file_bytes = await file.read()
 
     # save image
     file_ext = os.path.splitext(file.filename)[1].lower()
@@ -51,13 +47,11 @@ async def extract_text_from_receipt(file: UploadFile = File(...), x_api_password
 
     end_time = time.perf_counter()
     elapsed_time = end_time - start_time
+    receipt_id = db.save_receipt(current_user["user_id"], result)
 
-    # first save receipt without image 
-    receipt_id = db.save_receipt(result)
-    # then save the image and update the receipt record
-    db.update_receipt_image(receipt_id, image_path)
+    # then save the image path to the receipt record
+    db.update_receipt_image(receipt_id, image_path, current_user["user_id"])
 
     logger.info(f"OCR processing time: {elapsed_time:.3f} seconds")
 
     return result
-    

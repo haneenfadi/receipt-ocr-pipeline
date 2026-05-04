@@ -181,3 +181,116 @@
      padding-bottom: 3rem;
      max-width: 1200px;
  }
+
+ /* Arabic RTL Styling for Receipt Assistant */
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap');
+
+ html, body, [class*="css"], .stApp {
+     font-family: 'IBM Plex Sans Arabic', 'Inter', sans-serif !important;
+     direction: rtl;
+ }
+
+ .stTextArea textarea, .stTextInput input {
+     direction: rtl;
+     font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+     border-radius: 10px !important;
+     border: 1px solid #E2E8F0 !important;
+     font-size: 15px !important;
+ }
+
+ .stTextArea textarea:focus, .stTextInput input:focus {
+     border-color: #2EAADC !important;
+     box-shadow: 0 0 0 3px rgba(46,170,220,0.15) !important;
+ }
+
+ .stApp { background-color: #F5F7FA; }
+
+ section[data-testid="stSidebar"] { background-color: #1B3A6B; }
+ section[data-testid="stSidebar"] * { color: #ffffff !important; }
+
+ section[data-testid="stSidebar"] .stButton > button {
+     background: rgba(255,255,255,0.1) !important;
+     color: white !important;
+     border: 1px solid rgba(255,255,255,0.25) !important;
+     width: 100%;
+     text-align: right;
+     border-radius: 8px !important;
+     margin-bottom: 6px;
+     font-size: 13px !important;
+ }
+
+ section[data-testid="stSidebar"] .stButton > button:hover {
+     background: rgba(255,255,255,0.2) !important;
+ }
+
+ .stButton > button {
+     border-radius: 8px !important;
+     padding: 0.6rem 2.5rem !important;
+     font-size: 15px !important;
+     font-weight: 600 !important;
+     letter-spacing: 0.3px;
+ }
+
+ .stButton > button[kind="primary"] {
+     background-color: #1B3A6B !important;
+     color: white !important;
+     border: none !important;
+     transition: background 0.2s;
+ }
+
+ .stButton > button[kind="primary"]:hover {
+     background-color: #162f58 !important;
+ }
+
+ .stButton > button[kind="secondary"] {
+     background: white !important;
+     color: #4A5568 !important;
+     border: 1px solid #CBD5E0 !important;
+     box-shadow: none !important;
+ }
+
+ [data-testid="metric-container"] {
+     background: white !important;
+     border: 1px solid #E2E8F0 !important;
+     border-radius: 12px !important;
+     padding: 1.1rem 1.4rem !important;
+     box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+ }
+
+ [data-testid="stMetricValue"] { font-size: 1.6rem !important; font-weight: 600 !important; color: #1B3A6B !important; }
+ [data-testid="stMetricLabel"] { font-size: 13px !important; color: #718096 !important; font-weight: 500; }
+
+ .stDataFrame { border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; }
+
+ .stExpander { border: 1px solid #E2E8F0 !important; border-radius: 10px !important; background: white; }
+
+ .stAlert { border-radius: 10px !important; }
+
+ .stDownloadButton > button {
+     font-size: 13px !important;
+     border-radius: 8px !important;
+     border: 1px solid #E2E8F0 !important;
+     color: #1B3A6B !important;
+     background: white !important;
+ }
+
+ .footer {
+     position: fixed;
+     bottom: 0; left: 0; right: 0;
+     background: #1B3A6B;
+     color: rgba(255,255,255,0.7);
+     text-align: center;
+     padding: 0.5rem;
+     font-size: 12px;
+     z-index: 999;
+ }
+
+ .main .block-container { padding-bottom: 4rem; }
+
+ .section-title--inset {
+     text-align: right;
+ }
+
+ .section-subtitle--inset {
+     text-align: right;
+ }
