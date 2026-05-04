@@ -20,7 +20,7 @@ opencv-python-headless==4.11.0.86
 numpy==2.0.2
 
 # Streamlit UI
-Streamlit==1.41.1
+Streamlit==1.56.0
 
 # File upload handling
 python-multipart==0.0.21
@@ -31,3 +31,15 @@ python-dotenv==1.2.1
 # Database
 SQLAlchemy==2.0.45
 psycopg2-binary==2.9.10
+
+# Sentence embeddings
+sentence-transformers
+
+# Vector database
+chromadb
+
+# Authentication
+python-jose[cryptography]
+passlib[argon2]
+argon2-cffi
+
