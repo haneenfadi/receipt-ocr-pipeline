@@ -41,7 +41,13 @@ def login(form: OAuth2PasswordRequestForm = Depends()):
     ).fetchone()
     conn.close()
 
-    if not user or not verify_password(form.password, user["password_hash"]):
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="This account does not exist. Please create an account first.",
+        )
+
+    if not verify_password(form.password, user["password_hash"]):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect email or password",

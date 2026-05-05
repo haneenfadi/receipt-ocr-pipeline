@@ -16,6 +16,8 @@ AI-powered receipt data extraction system that converts images into structured d
 - **Instant Results:** Upload and extract in seconds
 - **Auto-Save:** Direct database storage without manual steps
 - **Dual Interface:** RESTful API for integration, Streamlit UI for interactive use
+- **Receipts Assistant:** Arabic Q&A interface for asking questions about saved receipts
+- **Secure Access:** Token-based authentication for upload and assistant pages
 - **Container Support:** Docker and Docker Compose ready
 
 ---
@@ -55,9 +57,33 @@ AI-powered receipt data extraction system that converts images into structured d
 ---
 
 ## Demo
+### Register/Login
+![Register page](./aux-files/register-page.PNG)
 
-### Streamlit Interface
-![Web Interface using streamlit](./aux-files/streamlit_app.PNG)
+### Upload 
+![Upload page](./aux-files/receipt-upload_interface.PNG)
+
+### Main App
+![Main app](./aux-files/receipt-upload.PNG)
+
+### Receipts Assistant
+The Streamlit app also includes a receipts assistant page for querying saved receipts in Arabic. You can ask questions such as:
+
+- Total spending this month
+- Most visited store
+- Taxes paid over a period
+- Top receipts by amount
+
+#### How the idea works
+1. The user writes a question in Arabic.
+2. The backend converts the question into a structured SQL query.
+3. The query runs on the receipts database.
+4. The assistant returns a short explanation and the result rows.
+
+#### Example flow
+![Receipts assistant page](aux-files/receipts_assistant.PNG)
+![Example result 1](./aux-files/assistant-results-1.PNG)
+![Example result 2](./aux-files/assistant-results-2.PNG)
 
 
 ---
@@ -148,10 +174,12 @@ docker-compose up -d
 ### Streamlit Interface
 
 ```bash
-streamlit run src/app/streamlit.py
+streamlit run src/app/streamlit_app.py
 ```
 
 Access at `http://localhost:8501`
+
+The Streamlit app includes both the receipt upload page and the receipts assistant page.
 
 ### FastAPI Endpoint
 
@@ -168,7 +196,7 @@ Interactive documentation: `http://localhost:8000/docs`
 ```bash
 curl -X POST "http://localhost:8000/api/v1/receipt_parser/upload" \
   -H "accept: application/json" \
-  -H "X-API-Password: your-auth-password" \
+    -H "Authorization: Bearer your-access-token" \
   -F "file=@/path/to/receipt.jpg"
 ```
 
@@ -214,30 +242,45 @@ OCR/
 │   
 └── src/                            # Source code
     │
+    ├── __init__.py                # Package initializer
     ├── app/
+    │   ├── __init__.py            # App package initializer
     │   ├── api.py                  # FastAPI backend
-    │   └── streamlit.py            # Streamlit interface
+    │   ├── streamlit_app.py        # Streamlit interface
+    │   └── app_pages/              # Streamlit pages
+    │       ├── login.py            # Login / register page
+    │       ├── upload.py           # Receipt upload page
+    │       └── ask_receipts.py     # Receipts assistant page
     │
     ├── assets/
     │   └── streamlit.css           # Streamlit styling
     │
     ├── config/
+    │   ├── __init__.py
     │   └── settings.py             # Application configuration
     │
-    ├── ocr/      
+    ├── ocr/
     │   ├── mistral_ocr.py          # OCR engine
     │   └── parsing.py              # LLM JSON parser
     │
-    ├── receipts/                   # Receipt samples
+    ├── receipts/                   # Sample receipt images
+    │
+    ├── search_in_receipts/
+    │   ├── __init__.py
+    │   ├── talk_to_sql.py          # Text-to-SQL assistant logic
+    │   └── test_text_sql.py        # Text-to-SQL test script
     │
     ├── routes/
-    │   ├── base.py                 # Base routes
-    │   └── receipt_parser.py       # Receipt parsing endpoints
+    │   ├── auth_router.py         # Authentication endpoints
+    │   ├── base.py                # Base routes
+    │   ├── receipt_parser.py      # Receipt parsing endpoints
+    │   └── receipts_assistant.py  # Receipts assistant API
     │
     ├── utils/
     │   ├── image_preprocessing.py  # Image enhancement
     │   ├── ip_whitelist.py         # IP filtering
-    │   └── schema.py               # Pydantic schemas
+    │   ├── schema.py               # Pydantic schemas
+    │   └── security.py             # Auth and DB helpers
     │
     └── test/                       # Testing suite
         ├── evaluate.py             # Model evaluation script

@@ -1,11 +1,12 @@
 import streamlit as st
 import requests
+from config.settings import settings
 def login_page():
 
     # ----------------------------
     # Page config
     # ----------------------------
-    st.set_page_config(page_title="Auth System", layout="centered")
+    st.set_page_config(page_title="Receipt Vision | نظام الفواتير الذكي", layout="centered")
 
     # ----------------------------
     # Session state init
@@ -13,12 +14,10 @@ def login_page():
     if "access_token" not in st.session_state:
         st.session_state["access_token"] = None
 
-    BASE_URL = "http://localhost:8000"
-
     # ----------------------------
     # Header
     # ----------------------------
-    st.title("Receipt Vision System | نظام تحليل الفواتير الذكي")
+    st.title("Receipt Vision | نظام الفواتير الذكي")
     st.write("قم بتسجيل الدخول أو إنشاء حساب للمتابعة")
 
     # ----------------------------
@@ -37,13 +36,13 @@ def login_page():
     # =========================================================
     if mode == "تسجيل الدخول":
         st.subheader("تسجيل الدخول")
-        login_email = st.text_input("Email", key="login_email")
+        login_email = st.text_input("البريد الإلكتروني", key="login_email")
         login_password = st.text_input(
-            "Password", type="password", key="login_password")
+            "كلمة المرور", type="password", key="login_password")
 
-        if st.button("Login", use_container_width=True):
+        if st.button("تسجيل الدخول", use_container_width=True):
             response = requests.post(
-                f"{BASE_URL}/auth/login",
+                f"{settings.BASE_URL}/auth/login",
                 data={
                     "username": login_email,
                     "password": login_password
@@ -52,10 +51,12 @@ def login_page():
 
             if response.status_code == 200:
                 st.session_state["access_token"] = response.json()["access_token"]
-                st.success("Login successful")
+                st.success("تم تسجيل الدخول بنجاح")
                 st.rerun()  # redirect to upload page after login
+            elif response.status_code == 404:
+                st.error("هذا الحساب غير موجود قم بإنشاء حساب أولا")
             else:
-                st.error("Invalid credentials")
+                st.error("بيانات الدخول غير صحيحة")
 
     # =========================================================
     # REGISTER
@@ -63,13 +64,13 @@ def login_page():
     if mode == "إنشاء حساب":
         st.subheader("إنشاء حساب جديد")
 
-        reg_email = st.text_input("Email", key="reg_email")
+        reg_email = st.text_input("البريد الإلكتروني", key="reg_email")
         reg_password = st.text_input(
-            "Password", type="password", key="reg_password")
+            "كلمة المرور", type="password", key="reg_password")
 
-        if st.button("Register", use_container_width=True):
+        if st.button("إنشاء الحساب", use_container_width=True):
             response = requests.post(
-                f"{BASE_URL}/auth/register",
+                f"{settings.BASE_URL}/auth/register",
                 json={
                     "email": reg_email,
                     "password": reg_password
@@ -79,7 +80,7 @@ def login_page():
             if response.status_code == 201:
                 # auto-login after register
                 login_response = requests.post(
-                    f"{BASE_URL}/auth/login",
+                    f"{settings.BASE_URL}/auth/login",
                     data={
                         "username": reg_email,
                         "password": reg_password
@@ -92,7 +93,7 @@ def login_page():
                     st.success("تم إنشاء الحساب بنجاح ")
                     st.rerun()
                 else:
-                    st.error("Registered but login failed")
+                    st.error("تم إنشاء الحساب لكن فشل تسجيل الدخول")
             else:
                 st.error(response.text)
 
@@ -100,4 +101,4 @@ def login_page():
     # Block access message
     # ----------------------------
     if st.session_state["access_token"]:
-        st.info("You are logged in. Go to Upload page.")
+        st.info("تم تسجيل الدخول. يمكنك الانتقال إلى صفحة رفع الفواتير.")

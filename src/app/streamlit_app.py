@@ -7,7 +7,7 @@ from app_pages.ask_receipts import receipts_assistant_page
 # CONFIG
 # -----------------------------
 st.set_page_config(
-    page_title="Receipt Vision System",
+    page_title="Receipt Vision | نظام الفواتير الذكي",
     layout="wide"
 )
 

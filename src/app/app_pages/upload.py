@@ -10,7 +10,7 @@ load_dotenv()
 def upload_page():
 
     st.set_page_config(
-        page_title="نظام استخراج بيانات الفواتير",
+        page_title="Receipt Vision | نظام الفواتير الذكي",
         page_icon="",
         layout="wide",
         initial_sidebar_state="collapsed"
@@ -63,7 +63,7 @@ def upload_page():
         }
         </style>
         <div class="upload-hero">
-            <h2>استخرج بيانات فواتيرك مع نظام  Receipt Vision </h2>
+            <h2>Receipt Vision | نظام الفواتير الذكي</h2>
             <p>ارفع صورة الفاتورة وسيتم تعبئة الحقول تلقائياً بشكل منظم</p>
         </div>
         """,
@@ -255,16 +255,34 @@ def upload_page():
         # Generate CSV data
         extracted_data = st.session_state.extracted_data
         if extracted_data.get("store_name") or extracted_data.get("receipt_number"):
-            # Create DataFrame from extracted data
-            df_dict = {
-                "اسم المتجر": [extracted_data.get("store_name", "")],
-                "رقم الفاتورة": [extracted_data.get("receipt_number", "")],
-                "التاريخ": [extracted_data.get("date", "")],
-                "العملة": [extracted_data.get("currency", "")],
-                "الضرائب": [extracted_data.get("taxes", "")],
-                "المبلغ الإجمالي": [extracted_data.get("total_amount", "")],
-            }
-            df = pd.DataFrame(df_dict)
+            items = extracted_data.get("items", []) or []
+
+            if items:
+                csv_rows = []
+                for item in items:
+                    csv_rows.append({
+                        "اسم المتجر": extracted_data.get("store_name", ""),
+                        "رقم الفاتورة": extracted_data.get("receipt_number", ""),
+                        "التاريخ": extracted_data.get("date", ""),
+                        "العملة": extracted_data.get("currency", ""),
+                        "الضرائب": extracted_data.get("taxes", ""),
+                        "المبلغ الإجمالي": extracted_data.get("total_amount", ""),
+                        "اسم الصنف": item.get("item_name", ""),
+                        "الكمية": item.get("quantity", ""),
+                    })
+            else:
+                csv_rows = [{
+                    "اسم المتجر": extracted_data.get("store_name", ""),
+                    "رقم الفاتورة": extracted_data.get("receipt_number", ""),
+                    "التاريخ": extracted_data.get("date", ""),
+                    "العملة": extracted_data.get("currency", ""),
+                    "الضرائب": extracted_data.get("taxes", ""),
+                    "المبلغ الإجمالي": extracted_data.get("total_amount", ""),
+                    "اسم الصنف": "",
+                    "الكمية": "",
+                }]
+
+            df = pd.DataFrame(csv_rows)
             csv_data = df.to_csv(index=False, encoding="utf-8-sig").encode("utf-8-sig")
             
             st.download_button(

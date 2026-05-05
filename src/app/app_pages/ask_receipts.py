@@ -3,13 +3,13 @@ import json
 import pandas as pd
 import requests
 import streamlit as st
+from config.settings import settings
 
 
 project_root = r"C:\Users\Dell\Desktop\my projects\OCR"
 
 
 def receipts_assistant_page():
-    BASE_URL = "http://localhost:8000"
 
     def inject_styles():
         # Load shared CSS from assets
@@ -101,7 +101,7 @@ def receipts_assistant_page():
                     مرحباً بك في مساعد الفواتير
                 </h3>
                 <p style="color:#718096; font-size:14px; font-family:'IBM Plex Sans Arabic',sans-serif; margin:0 0 1.5rem;">
-                    اكتب سؤالك أدناه أو اختر أحد الأمثلة للبدء
+                    اكتب سؤالك أو اختر أحد الأمثلة للبدء
                 </p>
             </div>
             """,
@@ -136,7 +136,7 @@ def receipts_assistant_page():
     }
 
     BASE_COLUMN_CONFIG = {
-        "id": st.column_config.NumberColumn("الرقم", format="%d"),
+        "id": st.column_config.NumberColumn("رقم السجل", format="%d"),
         "store_name": st.column_config.TextColumn("المتجر"),
         "receipt_number": st.column_config.TextColumn("رقم الفاتورة"),
         "date": st.column_config.TextColumn("التاريخ"),
@@ -175,17 +175,19 @@ def receipts_assistant_page():
             st.warning("⚠️ لا توجد نتائج لهذا الاستعلام.")
             return
 
-        render_metrics(df)
-        dynamic_config = build_column_config(df)
+        display_df = df.drop(columns=["id", "created_at"], errors="ignore")
+
+        render_metrics(display_df)
+        dynamic_config = build_column_config(display_df)
 
         st.dataframe(
-            df,
+            display_df,
             use_container_width=True,
             hide_index=True,
-            column_config={k: v for k, v in dynamic_config.items() if k in df.columns},
+            column_config={k: v for k, v in dynamic_config.items() if k in display_df.columns},
         )
 
-        csv_data = df.to_csv(index=False).encode("utf-8-sig")
+        csv_data = display_df.to_csv(index=False).encode("utf-8-sig")
         st.download_button(
             label="⬇️ تحميل النتائج كـ CSV",
             data=csv_data,
@@ -297,7 +299,7 @@ def receipts_assistant_page():
                         st.write("⚙️ إرسال السؤال إلى الخادم...")
                         headers = {"Authorization": f"Bearer {st.session_state.get('access_token')}"}
                         ask_response = requests.post(
-                            f"{BASE_URL}/api/v1/receipts_assistant/ask_question",
+                            f"{settings.BASE_URL}/api/v1/receipts_assistant/ask_question",
                             json={"question": question},
                             headers=headers,
                             timeout=30,
