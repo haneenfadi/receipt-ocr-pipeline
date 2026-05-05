@@ -1,7 +1,8 @@
 import streamlit as st
-from app_pages.login import login_page
-from app_pages.upload import upload_page
-from app_pages.ask_receipts import receipts_assistant_page
+from app.app_pages.login import login_page
+from app.app_pages.upload import upload_page
+from app.app_pages.ask_receipts import receipts_assistant_page
+
 
 # -----------------------------
 # CONFIG

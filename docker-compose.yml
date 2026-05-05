@@ -10,3 +10,20 @@ services:
 
     restart: always
 
+  streamlit-ui:
+    build:
+      context: .
+    container_name: streamlit-ui
+    working_dir: /app/src/app
+    command: streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - "8501:8501"
+    env_file:
+      - src/.env
+    environment:
+      BASE_URL: http://receipt-parser:8000
+      PYTHONPATH: /app/src:/app/src/app
+    depends_on:
+      - receipt-parser
+    restart: always
+

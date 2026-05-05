@@ -3,20 +3,20 @@ import json
 import pandas as pd
 import requests
 import streamlit as st
+from pathlib import Path
 from config.settings import settings
 
 
-project_root = r"C:\Users\Dell\Desktop\my projects\OCR"
+CSS_PATH = Path(__file__).resolve().parents[2] / "assets" / "streamlit.css"
 
 
 def receipts_assistant_page():
 
     def inject_styles():
         # Load shared CSS from assets
-        css_path = os.path.join(project_root, "src", "assets", "streamlit.css")
-        if os.path.exists(css_path):
+        if CSS_PATH.exists():
             try:
-                with open(css_path, "r", encoding="utf-8") as f:
+                with open(CSS_PATH, "r", encoding="utf-8") as f:
                     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
             except Exception:
                 pass

@@ -3,9 +3,13 @@ import requests
 from PIL import Image
 import pandas as pd
 from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
-
+from config.settings import settings
 load_dotenv()
+
+
+CSS_PATH = Path(__file__).resolve().parents[2] / "assets" / "streamlit.css"
 
 def upload_page():
 
@@ -16,9 +20,9 @@ def upload_page():
         initial_sidebar_state="collapsed"
     )
 
-
-    with open(r"src/assets/streamlit.css", encoding="utf-8") as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+    if CSS_PATH.exists():
+        with open(CSS_PATH, encoding="utf-8") as f:
+            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
     st.markdown(
         """
@@ -145,7 +149,7 @@ def upload_page():
                         headers = {
                             "Authorization": f"Bearer {st.session_state['access_token']}"}
                         response = requests.post(
-                            "http://localhost:8000/api/v1/receipt_parser/upload",
+                            f"{settings.BASE_URL}/api/v1/receipt_parser/upload",
                             files=files,
                             headers=headers,
                             timeout=30,

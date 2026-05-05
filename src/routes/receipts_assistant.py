@@ -47,8 +47,7 @@ async def receipt_assistant(
         logger.bind(user_id=user_id).debug("Generated SQL query")
         sql_results = system.execute_sql(sql_query, user_id=user_id)
         logger.bind(user_id=user_id, success=sql_results.get("success", False)).info("SQL query executed")
-        print(system.combined_answer(request.question, sql_results))
-        
+                
         return {
             "status": "success",
             "code": "ANSWER_GENERATED",

@@ -32,12 +32,6 @@ python-dotenv==1.2.1
 SQLAlchemy==2.0.45
 psycopg2-binary==2.9.10
 
-# Sentence embeddings
-sentence-transformers
-
-# Vector database
-chromadb
-
 # Authentication
 python-jose[cryptography]
 passlib[argon2]
