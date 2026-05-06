@@ -1,0 +1,39 @@
+G
+
+# CASTRO PIZZA
+NEW YORK STYLE PIZZA
+
+# 1
+
+23/10/2021 04:59 PM
+
+1
+
+|  Qty | Item Description | Price | Total  |
+| --- | --- | --- | --- |
+|  1.00 | Offer 2 Large Pizza 150 | 150.00 | 150.00  |
+|  1.00 | Pepsi 1 L | .00 | .00  |
+|  1.00 | Pizza Chicken Ranch L | .00 | .00  |
+|  1.00 | Pizza Supreme L | .00 | .00  |
+
+Sub Total
+
+150.00
+
+|  Tax | Discount  |
+| --- | --- |
+|  .00 | .00  |
+
+Paid
+
+Total
+
+150.00
+
+150.00
+
+Change
+
+.00
+
+01228540860-01033891754

@@ -1,0 +1,14 @@
+{
+  "store_name": "damanhour",
+  "receipt_number": "40",
+  "date": "23/11/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "Heart Attack Strips",
+      "quantity": "2"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "250.00"
+}

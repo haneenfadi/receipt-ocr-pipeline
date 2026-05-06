@@ -1,0 +1,14 @@
+{
+  "store_name": "المحلوى",
+  "receipt_number": "296",
+  "date": "29/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "جميرى جامبو",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "115.00"
+}

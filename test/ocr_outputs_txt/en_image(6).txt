@@ -1,0 +1,37 @@
+# damanhour
+
+Nov 23, 2022 10:29:06 PM
+
+DINE-IN
+Administrator
+
+# damanhour
+
+ORDER#
+40
+
+*** THIS IS A COPY ***
+
+|  ITEM | QTY | PRICE  |
+| --- | --- | --- |
+|  Heart Attack Strips | 2.00 | 250.00  |
+|  PCS: 5 |  |   |
+
+عادي
+
+|  SUBTOTAL | 250.00  |
+| --- | --- |
+|  TOTAL | 250.00  |
+|  PAID | 250.00  |
+
+10:29:00  CASH  250.00
+PM  Tendered
+
+Thank you for your payment!
+*** THIS IS A COPY ***
+
+السعر يشمل ضريبة القيمة المضافة
+%14
+
+Powered by Foodpoint, Inc.
+www.getfoodpoint.com

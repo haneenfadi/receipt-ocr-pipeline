@@ -1,0 +1,22 @@
+{
+  "store_name": "حلويات الديباطي",
+  "receipt_number": "216719",
+  "date": "24/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "تورثة باصوره ٤٠,٠٠",
+      "quantity": "1"
+    },
+    {
+      "item_name": "شمع شتوره غير",
+      "quantity": "2"
+    },
+    {
+      "item_name": "صغير H.B.D شمع",
+      "quantity": "6"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "444.00"
+}

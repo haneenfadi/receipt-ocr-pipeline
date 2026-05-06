@@ -1,0 +1,18 @@
+{
+  "store_name": "pharmacy",
+  "receipt_number": "111181",
+  "date": "17/06/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "TRESIDA 100 UNIT FLEXTOUCH",
+      "quantity": "1"
+    },
+    {
+      "item_name": "AMARYL M 2/500MG 30TAB",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "290.00"
+}

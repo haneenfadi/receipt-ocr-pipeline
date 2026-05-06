@@ -1,0 +1,14 @@
+{
+  "store_name": "CAC Parking",
+  "receipt_number": "2237/0032/825",
+  "date": "17/10/2022",
+  "currency": "LE",
+  "items": [
+    {
+      "item_name": "Pay parking ticket",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "2.46",
+  "total_amount": "20.00"
+}

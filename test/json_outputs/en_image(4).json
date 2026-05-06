@@ -1,0 +1,14 @@
+{
+  "store_name": "Dragos",
+  "receipt_number": "104231",
+  "date": "02/09/2022",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "Brisket Wrapp",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "7.70",
+  "total_amount": "62.70"
+}

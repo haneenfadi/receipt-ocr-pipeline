@@ -1,0 +1,25 @@
+almaza
+14 Sep 2022 17:31:57
+
+TAKEAWAY
+Administrator
+
+almaza
+ORDER#
+116
+
+PAGER #12
+
+|  ITEM | QTY | PRICE  |
+| --- | --- | --- |
+|  Chicken pops | 2.00 | 80.00  |
+|  Sauces: 1x Cheddar Sauce |  |   |
+|  Fries | 2.00 | 50.00  |
+|  Fries Flavor: Cheese |  |   |
+
+SUBTOTAL 130.00
+TOTAL 130.00
+PAID 130.00
+17:31:54 CREDIT 130.00
+CARD
+Thank you for your payment!

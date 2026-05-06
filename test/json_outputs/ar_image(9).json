@@ -1,0 +1,46 @@
+{
+  "store_name": "HAWK",
+  "receipt_number": null,
+  "date": null,
+  "currency": null,
+  "items": [
+    {
+      "item_name": "لوريدا",
+      "quantity": "1"
+    },
+    {
+      "item_name": "قهوة لوليلا",
+      "quantity": "1"
+    },
+    {
+      "item_name": "مانجو",
+      "quantity": "1"
+    },
+    {
+      "item_name": "اوريغ شيك",
+      "quantity": "1"
+    },
+    {
+      "item_name": "مياه معدنية صغيرة",
+      "quantity": "1"
+    },
+    {
+      "item_name": "هوك ميتس",
+      "quantity": "1"
+    },
+    {
+      "item_name": "شاي كشري",
+      "quantity": "2"
+    },
+    {
+      "item_name": "شاي زرده",
+      "quantity": "1"
+    },
+    {
+      "item_name": "birthday party",
+      "quantity": "4"
+    }
+  ],
+  "taxes": "0.00",
+  "total_amount": "610.00"
+}

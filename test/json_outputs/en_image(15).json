@@ -1,0 +1,14 @@
+{
+  "store_name": "VODAFONE",
+  "receipt_number": "98005",
+  "date": "14/12/2021",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "Article# 111130288",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "797.02",
+  "total_amount": "6,490.00"
+}

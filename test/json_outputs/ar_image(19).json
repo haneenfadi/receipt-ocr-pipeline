@@ -1,0 +1,22 @@
+{
+  "store_name": "كباب الشيخ",
+  "receipt_number": "559",
+  "date": "22/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "فرخه ع الفحم",
+      "quantity": "1"
+    },
+    {
+      "item_name": "كباب احمر كيلو",
+      "quantity": "1"
+    },
+    {
+      "item_name": "گفته كندوز 2/1 نص",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "445.00"
+}

@@ -1,0 +1,32 @@
+VODAFONE
+Kafr ElZayat Abu Bakr St. Express Store
+STORE 978
+vodafone.com.eg
+
+Duplicate
+
+Performed on: Dec 14, 2021 4:18 PM
+Cashier:
+Sales assistant ID: V20SAhmed54
+Location: 978
+CRG/Drawer: 02/115428
+C.Day: Dec 14, 2021
+Sales receipt: 98005
+
+SALES RCPT
+
+|  Article# | Quantity | Unit price | VAT | Amount  |
+| --- | --- | --- | --- | --- |
+|  111130288 | 1.00 EA | 6,490.00 VAT 14 | 6,490.00 |   |
+|  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = |   |   |   | Invoice total 6,490.00 EGP  |
+|  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  |   |   |   |   |
+
+VAT amount: 797.02 Net 5,692.98 EGP
+VAT 14% 797.02 Net 5,692.98 EGP
+
+tendered
+Egyptian Pound 6,490.00
+
+184602
+
+Thanks for visiting Kafr ElZayat Abu Bakr St. Express Store Misrfone trading - a Vodafone Trading Agent

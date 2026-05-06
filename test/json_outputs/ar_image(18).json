@@ -1,0 +1,18 @@
+{
+  "store_name": "سوبر ماركت الراية",
+  "receipt_number": "352",
+  "date": "16/09/2022",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "كريستال زبد",
+      "quantity": "3"
+    },
+    {
+      "item_name": "خسم",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "137.85"
+}

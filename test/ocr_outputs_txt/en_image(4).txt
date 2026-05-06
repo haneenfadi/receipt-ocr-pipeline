@@ -1,0 +1,20 @@
+Dragos - October Branch
+Check
+
+Call# 40
+
+Printed At: 2022/09/02 12:44:05 AM
+Pick Up
+Check# 104231
+2022/09/02 12:28:32 AM
+
+Creator:
+
+|  Qty | Item | Price  |
+| --- | --- | --- |
+|  1 | Brisket Wrapp | EGP 55.00  |
+|   | Subtotal | EGP 55.00  |
+|   | Vat(14.0%) | EGP 7.70  |
+|   | Total | EGP 62.70  |
+
+Products Count 1

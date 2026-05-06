@@ -1,0 +1,22 @@
+{
+  "store_name": "الزهراء مارکت",
+  "receipt_number": "2209-7449",
+  "date": "16/09/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "عصير بيتـي مانجو",
+      "quantity": "2"
+    },
+    {
+      "item_name": "ماندولين شيكولاته جم 350",
+      "quantity": "1"
+    },
+    {
+      "item_name": "شويبس رومان 1ل",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "40.00"
+}

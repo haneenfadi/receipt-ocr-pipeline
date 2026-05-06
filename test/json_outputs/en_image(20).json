@@ -1,0 +1,30 @@
+{
+  "store_name": "Carrefour Maadi",
+  "receipt_number": "16518",
+  "date": "08/07/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "Sweet Cream",
+      "quantity": null
+    },
+    {
+      "item_name": "Ready Sgnt. Cre. Like",
+      "quantity": "2"
+    },
+    {
+      "item_name": "Chocolate Devouti",
+      "quantity": "2"
+    },
+    {
+      "item_name": "Fudge",
+      "quantity": "2"
+    },
+    {
+      "item_name": "Water",
+      "quantity": null
+    }
+  ],
+  "taxes": "17.8",
+  "total_amount": "145.0"
+}

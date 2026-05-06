@@ -1,0 +1,18 @@
+{
+  "store_name": null,
+  "receipt_number": "3843",
+  "date": "03/09/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "دانين ١٠٠ جم شيكولاتة",
+      "quantity": "5"
+    },
+    {
+      "item_name": "دانون زبادي اكتيفياه ١٠٠ سادة عرض",
+      "quantity": "4"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "35.00"
+}

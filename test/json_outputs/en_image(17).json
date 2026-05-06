@@ -1,0 +1,22 @@
+{
+  "store_name": "McDonald's",
+  "receipt_number": "77",
+  "date": "10/12/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "Med SPChknFlt",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Medium CocaCola",
+      "quantity": "1"
+    },
+    {
+      "item_name": "MED Fries In Meal",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "12.40",
+  "total_amount": "101.00"
+}

@@ -1,0 +1,14 @@
+{
+  "store_name": "orange",
+  "receipt_number": "031439587300055766",
+  "date": "18/10/2021",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "Bill Payment",
+      "quantity": "2"
+    }
+  ],
+  "taxes": "0.00",
+  "total_amount": "325.00"
+}

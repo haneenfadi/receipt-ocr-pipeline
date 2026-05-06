@@ -1,0 +1,22 @@
+{
+  "store_name": "ميجا باند",
+  "receipt_number": "3",
+  "date": "01/11/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "CIDOPHAGE 10TAB",
+      "quantity": "2"
+    },
+    {
+      "item_name": "FOLIC ACID 500MCG TAB N",
+      "quantity": "1"
+    },
+    {
+      "item_name": "SELENIUM ACE 30TAB N",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "61.50"
+}

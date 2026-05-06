@@ -1,0 +1,22 @@
+{
+  "store_name": "PIzza Station",
+  "receipt_number": "60141-TW-2022-1-12-85295",
+  "date": "27/11/2022",
+  "currency": "EG£",
+  "items": [
+    {
+      "item_name": "Half&Half L - R",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Chicken Ranch - 1/2 S.C",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Italian Sausage - 1/2 S.C",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "27.63",
+  "total_amount": "225"
+}

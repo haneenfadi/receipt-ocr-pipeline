@@ -1,0 +1,36 @@
+# COLD STONE
+## CREAMERY
+
+### Carrefour Maadi
+**Cop**
+
+Outlet: Carrefour Maadi
+Table: 001
+Guests: 1
+Order Type: Eat In
+Date: 08/07/202
+Shift:
+Serial#: 16518
+Taken by:
+
+Opening Time: 09:42 PM
+
+|  Sweet Cream | 30.7  |
+| --- | --- |
+|  Ready Sgnt. Cre. Like (2X0.00) | 0.0  |
+|  + Chocolate Devouti (2X35.09) | 70.1  |
+|  Fudge (2X8.77) | 17.5  |
+|  Water | 8.7  |
+|  Sub Total | 127.2  |
+|  * VAT 14% | 17.8  |
+|  Total | 145.0  |
+|  Cash | 200.0  |
+|  Change | -54.9  |
+
+**Payment Received, Thank You.**
+
+|  Total Food | 118.4  |
+| --- | --- |
+|  Total Beverage | 8.7  |
+
+Closing Time: 09:42 PM

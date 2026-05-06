@@ -1,0 +1,22 @@
+{
+  "store_name": "Abu Auf",
+  "receipt_number": "205810",
+  "date": "28/10/2021",
+  "currency": "L.E",
+  "items": [
+    {
+      "item_name": "Columbian Coffee Espresso 250g",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Instant Coffee Classic Piece",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Instant Coffee Gold Piece",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "0.00",
+  "total_amount": "75.00"
+}

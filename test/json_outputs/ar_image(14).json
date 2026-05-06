@@ -1,0 +1,30 @@
+{
+  "store_name": "هايبر شيبا",
+  "receipt_number": "240",
+  "date": "10/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "دوف اميراي مزيل ١٥٠ ملل",
+      "quantity": "1"
+    },
+    {
+      "item_name": "بيبسي محمول ١ لتر",
+      "quantity": "1"
+    },
+    {
+      "item_name": "شويبسي جولد خوخ ١ لتر",
+      "quantity": "1"
+    },
+    {
+      "item_name": "نوتيلا بي ريدي ويفر بالنوتيلا ٢٢ جم",
+      "quantity": "1"
+    },
+    {
+      "item_name": "زيرولين بروتين بار انواع ٧٠ جم",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "117.00"
+}

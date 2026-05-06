@@ -1,0 +1,14 @@
+{
+  "store_name": "Queen",
+  "receipt_number": "2209-288",
+  "date": "17/09/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "211 شو",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "0",
+  "total_amount": "190.00"
+}

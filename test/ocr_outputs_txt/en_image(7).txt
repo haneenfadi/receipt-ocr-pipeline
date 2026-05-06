@@ -18,11 +18,11 @@ Unit price | Amount  |
 |  1 480172 | Bill Payment
 175.00 | 175.00  |
 |  Biq MSISDN 1227781066 |  |   |
-|  Total net amount |   | 325.00 EGP  |
-|  0% VAT Tax |   | 0.00 EGP  |
-|  Invoice total |   | 325.00 EGP  |
-|  tendered
-Cash |   | 325.00  |
+|  Total net amount |  | 325.00 EGP  |
+|  0% VAT Tax |  | 0.00 EGP  |
+|  Invoice total |  | 325.00 EGP  |
+|  tendered |  |   |
+|  Cash |  | 325.00  |
 
 71916
 

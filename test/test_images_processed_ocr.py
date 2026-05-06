@@ -25,7 +25,7 @@ def check_image_quality(image_path):
     img = cv2.imread(image_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    # sharpness check using Laplacian variance  
+    # sharpness check using Laplacian variance
     laplacian_var = cv2.Laplacian(gray, cv2.CV_64F).var()
 
     print(f" Quality check: {os.path.basename(image_path)}")
@@ -34,7 +34,7 @@ def check_image_quality(image_path):
     # use a threshold for blurriness
     if laplacian_var < 35:
         print(f"  →  Very blurry (< 35) - Using original image\n")
-        return "original"  
+        return "original"
 
     # check brightness and contrast
     brightness = np.mean(gray)
@@ -77,7 +77,7 @@ def smart_ocr(image_path):
     # check quality
     processing_mode = check_image_quality(image_path)
 
-    # 3 cases 
+    # 3 cases
     if processing_mode == "original":
         print("Using ORIGINAL image (no processing)")
         final_path = image_path
@@ -101,7 +101,7 @@ def smart_ocr(image_path):
 
 
 # use example
-image_path = r"src\receipts\ar_image(16).jpg"
+image_path = r"src\receipts\ar_image(28).jpg"
 
 response, used_path = smart_ocr(image_path)
 
@@ -122,3 +122,6 @@ with open(output_path, "w", encoding="utf-8") as f:
         f.write(page.markdown)
 
 print(f"\n Saved to: {output_path}")
+
+
+def add(x, y): print(x + y)

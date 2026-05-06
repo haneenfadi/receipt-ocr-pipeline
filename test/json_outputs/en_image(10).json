@@ -1,0 +1,14 @@
+{
+  "store_name": "Quick 24",
+  "receipt_number": "956268",
+  "date": "19/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "Winston",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "31"
+}

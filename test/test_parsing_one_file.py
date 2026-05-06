@@ -1,15 +1,3 @@
-# Field-specific guidelines:
-    # Store Name: Extract only if clearly presented in the receipt header or as part of the logo text.
-    # Do not infer or guess based on products, context, or common brand recognition.
-    # Prioritize the main brand or store name from the logo and disregard branch names or locations unless the main name is absent.
-    # - receipt_number: Any identifier labeled as receipt number, invoice number, order number, or similar(only the number without extra text).
-    # - date: The transaction date in dd/mm/yyyy format.
-    # - currency: The currency symbol or code (e.g., USD, JOD, $, €).
-    # - items: List of purchased items.
-    #   - item_name: The product or service name.
-    #   - quantity: The quantity if explicitly mentioned(such as "2x" write it as 2).
-    # - taxes: Extract from "ضريبة" field ONLY. If you see "خدمة: 34.95", that is service charge NOT tax. Example: "ضريبة: 0" means taxes=0.
-    # - total_amount: The final total amount paid, usually labeled as total, grand total, or amount due.
 import json
 import os
 import re
@@ -104,7 +92,7 @@ def save_receipt_json(receipt_data, output_path):
 # Main Usage Example
 # ============================================================================
 if __name__ == "__main__":
-    txt_file = r"test\ocr_outputs_txt\ar_image(16).txt"
+    txt_file = r"test\ocr_outputs_txt\ar_image(28).txt"
 
 
     print("Parsing receipt with Groq...")
@@ -112,7 +100,7 @@ if __name__ == "__main__":
 
     if receipt_data:
         save_receipt_json(
-            receipt_data, r"test\json_outputs\ar_image(16).json")
+            receipt_data, r"test\json_outputs\ar_image(28).json")
         print(json.dumps(receipt_data, indent=2))
     else:
         print("Failed to parse receipt")

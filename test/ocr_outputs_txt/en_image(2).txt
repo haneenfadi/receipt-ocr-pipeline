@@ -1,0 +1,25 @@
+# KANSAS
+
+CFC
+Order # 95 VISA
+Date 24/10/2021 07:46 PM
+Cashier Morning 2
+
+## Take-away
+
+|  Qty | U.P | Item | Total  |
+| --- | --- | --- | --- |
+|  1 X | 0.00 | Dinner | 0.00  |
+|  1 X | 71.93 | =>Meal | 71.93  |
+|  1 X | 0.00 | =>Spicy | 0.00  |
+|  1 X | 0.00 | =>Coca-Cola Cans | 0.00  |
+|  2 X | 25.87 | Arizo | 51.74  |
+|  2 X | 0.00 | =>Original | 0.00  |
+
+Net Sales 123.67
+VAT 17.31
+
+**TOTAL** 140.98
+
+Enjoy your meal :)
+**Hotline:** 16213

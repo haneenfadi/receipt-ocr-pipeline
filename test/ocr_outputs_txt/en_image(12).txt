@@ -1,0 +1,22 @@
+# Store: ZAHRAA EL MAADI
+
+Receipt #: 4078
+Cashier:
+Cust.:
+Date: 22-Oct-2021 9:10:52 AM
+S.MAN:10302.KM
+Phone:
+
+|  QTY | SIZE | COLOR | PRICE | Disc$ | PRICE  |
+| --- | --- | --- | --- | --- | --- |
+|  022 Tie |  |  |  |  |   |
+|  TIE HOUSE | 022/000/000/0021 | 0 | 233402 | 204657 |   |
+|  1 |  |  | 295.00 | 295.00 |   |
+|  022 Tie |  |  |  |  |   |
+|  TIE HOUSE | 022/000/000/0021 | 0 | 233402 | 204657 |   |
+|  1 |  |  | 295.00 | 295.00 | 0.00  |
+
+2 Unit(s)
+Subtotal: 590.00
+Total Disc: 295.00
+Total: 295.00

@@ -1,0 +1,38 @@
+{
+  "store_name": "McDonald's",
+  "receipt_number": "37",
+  "date": "21/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "Lrg 9 Nuggets",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Barbeque Sauce",
+      "quantity": "2"
+    },
+    {
+      "item_name": "Large Sprite",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Large Fries",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Fudge Sundae",
+      "quantity": "1"
+    },
+    {
+      "item_name": "XTRA FUDTOP",
+      "quantity": "1"
+    },
+    {
+      "item_name": "MDS Service",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "17.68",
+  "total_amount": "143.98"
+}

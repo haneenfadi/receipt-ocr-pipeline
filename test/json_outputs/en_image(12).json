@@ -1,0 +1,14 @@
+{
+  "store_name": "ZAHRAA EL MAADI",
+  "receipt_number": "4078",
+  "date": "22/10/2021",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "TIE HOUSE",
+      "quantity": "2"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "295.00"
+}

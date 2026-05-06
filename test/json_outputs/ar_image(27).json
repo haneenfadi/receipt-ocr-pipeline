@@ -1,0 +1,26 @@
+{
+  "store_name": "McDonald's",
+  "receipt_number": "1480253",
+  "date": "13/09/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "REGCOK",
+      "quantity": "1"
+    },
+    {
+      "item_name": "GCHSSND",
+      "quantity": "1"
+    },
+    {
+      "item_name": "CXMCDO",
+      "quantity": "1"
+    },
+    {
+      "item_name": "REGFRY",
+      "quantity": "1"
+    }
+  ],
+  "taxes": "13.51",
+  "total_amount": "110.01"
+}

@@ -1,7 +1,7 @@
 [
     {
         "image": "ar_image(1).jpg",
-        "store_name": "Hyper Shiba",
+        "store_name": ["Hyper Shiba", "هايبر شيبا"],
         "receipt_number": "194",
         "date": "27/04/2022",
         "currency": null,
@@ -13,26 +13,25 @@
         ],
         "taxes": null,
         "total_amount": "32.00"
-        
     },
     {
-    "image": "ar_image(2).jpg",
-    "store_name": "مطعم ليالي الشام",
-    "receipt_number": "466",
-    "date": "19/12/2022",
-    "currency": null,
-    "items": [
-        {
-            "item_name": "طبق بطاطس بـ15",
-            "quantity": "1"
-        },
-        {
-            "item_name": "سندوتش فلافل صاج",
-            "quantity": "1"
-        }
-    ],
-    "taxes": null,
-    "total_amount": "40"
+        "image": "ar_image(2).jpg",
+        "store_name": "مطعم ليالي الشام",
+        "receipt_number": "466",
+        "date": "19/12/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "طبق بطاطس بـ15",
+                "quantity": "1"
+            },
+            {
+                "item_name": "سندوتش فلافل صاج",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "40"
     },
     {
         "image": "ar_image(3).jpg",
@@ -42,7 +41,7 @@
         "currency": null,
         "items": [
             {
-                "item_name":"س فول-بالصلصة",
+                "item_name": "س فول-بالصلصة",
                 "quantity": "1"
             },
             {
@@ -65,14 +64,13 @@
         "currency": null,
         "items": [
             {
-                "item_name":"علبة مشكلة 2 ك",
+                "item_name": "علبة مشكلة 2 ك",
                 "quantity": "1"
             }
         ],
         "taxes": "13.10",
         "total_amount": "275.00"
-    }
-    ,
+    },
     {
         "image": "ar_image(5).jpg",
         "store_name": "مطعم مشويات القصر",
@@ -145,6 +143,1112 @@
         ],
         "taxes": "4.67",
         "total_amount": "38.00"
+    },
+    {
+        "image": "ar_image(8).jpg",
+        "store_name": "نقاوه",
+        "receipt_number": "143",
+        "date": "22/12/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "كاكا بشاير",
+                "quantity": "1.25"
+            },
+            {
+                "item_name": "طبق فرولة بشاير",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ليمون",
+                "quantity": "0.79"
+            },
+            {
+                "item_name": "ثوم مقشر",
+                "quantity": "2"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "97.72"
+    },
+    {
+        "image": "ar_image(9).jpg",
+        "store_name": "HAWK",
+        "receipt_number": null,
+        "date": null,
+        "currency": null,
+        "items": [
+            {
+                "item_name": "فلوريدا",
+                "quantity": "1"
+            },
+            {
+                "item_name": "قهوة لوليلا",
+                "quantity": "1"
+            },
+            {
+                "item_name": "مانجو",
+                "quantity": "1"
+            },
+            {
+                "item_name": "اوريو شبك",
+                "quantity": "1"
+            },
+            {
+                "item_name": "مياه معدنية صغيرة",
+                "quantity": "1"
+            },
+            {
+                "item_name": "هوك ميكس",
+                "quantity": "1"
+            },
+            {
+                "item_name": "شاي كشري",
+                "quantity": "2"
+            },
+            {
+                "item_name": "شاي زرده",
+                "quantity": "1"
+            },
+            {
+                "item_name": "brithday party",
+                "quantity": "4"
+            }
+        ],
+        "taxes": "0.00",
+        "total_amount": "616.00"
+    },
+    {
+        "image": "ar_image(10).jpg",
+        "store_name": "المحلاوى",
+        "receipt_number": "296",
+        "date": "29/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "جمبرى جامبو",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "115.00"
+    },
+    {
+        "image": "ar_image(11).jpg",
+        "store_name": "كنافه فيصل المريوطية",
+        "receipt_number": "152",
+        "date": "01/11/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "1/2 ك مدلعة",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "30.00"
+    },
+    {
+        "image": "ar_image(12).jpg",
+        "store_name": "كازيون",
+        "receipt_number": "SB1482000202215",
+        "date": "11/22/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "بيتي عصير تروبيكانا تفاح 235مل",
+                "quantity": "2"
+            },
+            {
+                "item_name": "حلوة زيت خليط 2.25لتر",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "93.40"
+    },
+    {
+        "image": "ar_image(13).jpg",
+        "store_name": "المدينة المنورة",
+        "receipt_number": "220",
+        "date": "08/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "ارز باللبن كبير",
+                "quantity": "2"
+            },
+            {
+                "item_name": "كريم كراميل",
+                "quantity": "1"
+            },
+            {
+                "item_name": "أم على",
+                "quantity": "2"
+            },
+            {
+                "item_name": "بولة حليب سادة",
+                "quantity": "2"
+            }
+        ],
+        "taxes": "0.000",
+        "total_amount": "117.00"
+    },
+    {
+        "image": "ar_image(14).jpg",
+        "store_name": ["هايبر شيبا","Hyper Shiba"],
+        "receipt_number": "240",
+        "date": "10/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "دوف اسبراي مزيل ١٥٠ ملل",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ببسي محمول ١ لتر",
+                "quantity": "1"
+            },
+            {
+                "item_name": "شويبسي جولد خوخ ١ لتر ",
+                "quantity": "1"
+            },
+            {
+                "item_name": "نوتيلا بي ريدي ويفر بالنوتيلا ٢٢ جم",
+                "quantity": "1"
+            },
+            {
+                "item_name": "زيرو لين بروتين بار انواع ٧٠ جم",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "117.00"
+    },
+    {
+        "image": "ar_image(15).jpg",
+        "store_name": "لحوم البحيري",
+        "receipt_number": "69",
+        "date": "16/09/2022",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "مفروم كندوز",
+                "quantity": "0.61"
+            },
+            {
+                "item_name": "خضار كندوز",
+                "quantity": "1.26"
+            },
+            {
+                "item_name": "انتركوت كندوز",
+                "quantity": "0.52"
+            },
+            {
+                "item_name": "ريب اي كندوز",
+                "quantity": "1.77"
+            }
+        ],
+        "taxes": "00",
+        "total_amount": "786.33"
+    },
+    {
+        "image": "ar_image(16).jpg",
+        "store_name": "سوبر مارکت الدنيا بخير",
+        "receipt_number": "1774005",
+        "date": "15/12/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "شبيسي عائلي",
+                "quantity": "1"
+            },
+            {
+                "item_name": "جبنه شيدر طبيعي",
+                "quantity": "0.225"
+            },
+            {
+                "item_name": "ياميش كاجو محمص ٢١٠",
+                "quantity": "0.19"
+            },
+            {
+                "item_name": "شيكولاته كيت كات ٢ صايع ٤+١",
+                "quantity": "1"
+            },
+            {
+                "item_name": "المراعي زبادي ١٠٠ جم بالخوخ",
+                "quantity": "4"
+            },
+            {
+                "item_name": "المراعي حليب ٢٠٠ مل بالموز جديد",
+                "quantity": "2"
+            },
+            {
+                "item_name": "المراعي حليب ١,٥ لتر كامل الدسم",
+                "quantity": "1"
+            },
+            {
+                "item_name": "دانون دانيت شيكولاته ٧٠ جم",
+                "quantity": "4"
+            },
+            {
+                "item_name": "سن نوب عصير اناناس ٢٥٠ جم",
+                "quantity": "2"
+            },
+            {
+                "item_name": "بيكدر شيكولاته ٣٠ جم",
+                "quantity": "1"
+            },
+            {
+                "item_name": "جيلي ساور ٣٥ جم",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "190.50"
+    },
+    {
+        "image": "ar_image(17).jpg",
+        "store_name": "Monginis Bakery",
+        "receipt_number": "0090-002-139508",
+        "date": "18/10/2021",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "جاتوه بوستاجو شوكولاته وايت",
+                "quantity": "12"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "150.00"
+    },
+    {
+        "image": "ar_image(18).jpg",
+        "store_name": "سوبر ماركت الراية",
+        "receipt_number": "352",
+        "date": "16/09/2022",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "كريستال زبدة 1كجم",
+                "quantity": "3"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "137.85"
+    },
+    {
+        "image": "ar_image(19).jpg",
+        "store_name": "كباب الشيخ",
+        "receipt_number": "559",
+        "date": "22/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "فرخه ع الفحم",
+                "quantity": "1"
+            },
+            {
+                "item_name": "كباب احمر كيلو",
+                "quantity": "1"
+            },
+            {
+                "item_name": "كفته كندوز 2/1 نص",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "0",
+        "total_amount": "445.00"
+    },
+    {
+        "image": "ar_image(20).jpg",
+        "store_name": "صيدليات رعاية",
+        "receipt_number": "516638",
+        "date": "01/11/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "CIDOPHAGE 10TAB",
+                "quantity": "2"
+            },
+            {
+                "item_name": "  FOLIC ACID 500MCG TAB N",
+                "quantity": "1"
+            },
+            {
+                "item_name": " SELENIUM ACE 30TAB N",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "61.50"
+    },
+    {
+        "image": "en_image(1).jpg",
+        "store_name": "PIzza Station",
+        "receipt_number": "60141-TW-2022-1-12-85295",
+        "date": "27/11/2022",
+        "currency": "EG£",
+        "items": [{
+            "item_name": "Half&Half L - R",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Chicken Ranch - 1/2 S.C",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Italian Sausage - 1/2 S.C",
+            "quantity": "1"
+        }],
+        "taxes": "27.63",
+        "total_amount": "225"
+    },
+    {
+        "image": "en_image(2).jpg",
+        "store_name": "KANSAS",
+        "receipt_number": "95",
+        "date": "24/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "Dinner",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Meal",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Spicy",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Coca-Cola Cans",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Arizo",
+                "quantity": "2"
+            },
+            {
+                "item_name": "Original",
+                "quantity": "2"
+            }
+        ],
+        "taxes": "17.31",
+        "total_amount": "140.98"
+    },
+    {
+        "image": "en_image(3).jpg",
+        "store_name": "CASTRO PIZZA",
+        "receipt_number": "01228540860-01033891754",
+        "date": "23/10/2021",
+        "currency": null,
+        "items": [{
+            "item_name": "Offer 2 Large Pizza 150",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Pepsi 1 L",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Pizza Chicken Ranch L",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Pizza Supreme L",
+            "quantity": "1"
+        }],
+        "taxes": "0",
+        "total_amount": "150.00"
+    },
+    {
+        "image": "en_image(4).jpg",
+        "store_name": "Dragos",
+        "receipt_number": "104231",
+        "date": "02/09/2022",
+        "currency": "EGP",
+        "items": [{
+            "item_name": "Brisket Wrapp",
+            "quantity": "1"
+        }],
+        "taxes": "7.70",
+        "total_amount": "62.70"
+    },
+    {
+        "image": "en_image(5).jpg",
+        "store_name": "Breadfast",
+        "receipt_number": "3121-5394525",
+        "date": "31/08/2022",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "Breadfast BYLD Keto Chocolate Bar (60g)",
+                "quantity": "5"
+            }
+        ],
+        "taxes": "17.19",
+        "total_amount": "159.50"
+    },
+    {
+        "image": "en_image(6).jpg",
+        "store_name": "damanhour",
+        "receipt_number": "40",
+        "date": "23/11/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "Heart Attack Strips",
+                "quantity": "2"
+            }
+        ],
+        "taxes": "0",
+        "total_amount": "250.00"
+    },
+    {
+        "image": "en_image(7).jpg",
+        "store_name": "orange",
+        "receipt_number": "031439587300055766",
+        "date": "18/10/2021",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "Bill Payment",
+                "quantity": "2"
+            }
+        ],
+        "taxes": "0.00",
+        "total_amount": "325.00"
+    },
+    {
+        "image": "en_image(8).jpg",
+        "store_name": "pharmacy",
+        "receipt_number": "111181",
+        "date": "17/06/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "TRESIDA 100 UNIT FLEXTOUCH",
+                "quantity": "1"
+            },
+            {
+                "item_name": "AMARYL M 2/500MG 30TAB",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "290.00"
+    },
+    {
+        "image": "en_image(9).jpg",
+        "store_name": "Health Insurance",
+        "receipt_number":"104236",
+        "date": "19/09/2022",
+        "currency":"EGP",
+        "items": [{
+            "item_name": "Complete Blood Picture (CBC)",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Serum Urea",
+            "quantity": "1"
+        },
+        {
+            "item_name": "SGOT (AST)",
+            "quantity": "1"
+        },
+        {
+            "item_name": "SGPT (ALT)",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Albumin, Serum",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Serum Creatinine",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Serum Magnesium",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Serum Sodium and Potassium",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Uric Acid, Serum",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Urine Analysis",
+            "quantity": "1"
+        },
+        {
+            "item_name": "C-Reactive Protein (CRP) Titre",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Serum Phosphorus",
+            "quantity": "1"
+        },
+        {
+            "item_name": "Total and Ionized Calcium",
+            "quantity": "1"
+        }
+    ],
+        "taxes": null,
+        "total_amount": "189.00"
+    },
+    {
+        "image": "en_image(10).jpg",
+        "store_name": "Mall Of Arabia",
+        "receipt_number": "956268",
+        "date": "19/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "Winston",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "31"
+    },
+    {
+        "image": "en_image(11).jpg",
+        "store_name": "DUNKIN",
+        "receipt_number": "510435",
+        "date": "19/10/2021",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "Signature Latte Medium",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Signature Latte Small",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "7.37",
+        "total_amount": "60.00"
+    },
+    {
+        "image": "en_image(12).jpg",
+        "store_name": "ZAHRAA EL MAADI",
+        "receipt_number": "4078",
+        "date": "22/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "TIE HOUSE",
+                "quantity": "2"
+            }
+            
+        ],
+        "taxes": null,
+        "total_amount": "295.00"
+    },
+    {
+        "image": "en_image(13).jpg",
+        "store_name": "almaza",
+        "receipt_number": "116",
+        "date": "14/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "Chicken pops",
+                "quantity": "2"
+            },
+            {
+                "item_name": "Fries",
+                "quantity": "2"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "130.00"
+    },
+    {
+        "image": "en_image(14).jpg",
+        "store_name": "Breadfast",
+        "receipt_number": "2717-1688649",
+        "date": "27/10/2021",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "Orea Chocolate",
+                "quantity": "2"
+            },
+            {
+                "item_name": "Biscuits Wafer With Chocolate Cream",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Roshen Wafer",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Indomie Instant Noodles Beef (70g)",
+                "quantity": "5"
+            },
+            {
+                "item_name": "Almarai Full Cream",
+                "quantity": "3"
+            }    
+        ],
+        "taxes": "0",
+        "total_amount": "200.00"
+    },
+    {
+        "image": "en_image(15).jpg",
+        "store_name": "VODAFONE",
+        "receipt_number": "98005",
+        "date": "14/12/2021",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "Reno Aurora (8/128)/local",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "797.02",
+        "total_amount": "6,490.00"
+    },
+    {
+        "image": "en_image(16).jpg",
+        "store_name": "Abu Auf",
+        "receipt_number": "205810",
+        "date": "28/10/2021",
+        "currency": "L.E",
+        "items": [
+            {
+                "item_name": "Columbian Coffee Espresso 250g",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Instant Coffee Classic Piece",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Instant Coffee Gold Piece",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "0.00",
+        "total_amount": "75.00"
+    },
+    {
+        "image": "en_image(17).jpg",
+        "store_name": "McDonald's",
+        "receipt_number": "77",
+        "date": "10/12/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "Med SPChknFlt",
+                "quantity": "1"
+            },
+            {
+                "item_name": "Medium CocaCola",
+                "quantity": "1"
+            },
+            {
+                "item_name": "MED Fries In Meal",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "12.40",
+        "total_amount": "101.00"
+    },
+    {
+        "image": "en_image(18).jpg",
+        "store_name": "CAC Parking",
+        "receipt_number": "2237/0032/825",
+        "date": "17/10/2022",
+        "currency": "LE",
+        "items": [
+            {
+                "item_name": "Pay parking ticket",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "2.46",
+        "total_amount": "20.00"
+    },
+    {
+        "image": "en_image(19).jpg",
+        "store_name": "Queen",
+        "receipt_number": "2209-288",
+        "date": "17/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "211 شو",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "0",
+        "total_amount": "190.00"
+    },
+    {
+        "image": "en_image(20).jpg",
+        "store_name": "Carrefour Maadi",
+        "receipt_number": "16518",
+        "date": "08/07/2022",
+        "currency": null,
+        "items": [{
+            "item_name": "Sweet Cream",
+            "quantity": null
+        },
+        {
+            "item_name": "Ready Sgnt. Cre. Like",
+            "quantity": "2"
+        },
+        {
+            "item_name": "Chocolate Devouti",
+            "quantity": "2"
+        },
+        {
+            "item_name": "Fudge",
+            "quantity": "2"
+        },
+        {
+            "item_name": "Water",
+            "quantity": null
+        }],
+        "taxes": "17.8",
+        "total_amount": "145.0"
+    },
+    {
+        "image": "ar_image(21).jpg",
+        "store_name": "الحياة ماركت",
+        "receipt_number": "112",
+        "date": "03/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "دانيت ١٠٠ جم شيكولاتة",
+                "quantity": "2"
+            },
+            {
+                "item_name": "دانون زبادي اكتيفياه ١٠ سادة عرض",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "35.00"
+    },
+    {
+        "image": "ar_image(22).jpg",
+        "store_name": "Time Less",
+        "receipt_number": "69228",
+        "date": "08/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "ميكس صودا",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount":"44.00"
+    },
+    {
+        "image": "ar_image(23).jpg",
+        "store_name": "الزهراء ماركت",
+        "receipt_number": "2209-7449",
+        "date": "16/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "عصير بيتي مانجو",
+                "quantity": "2"
+            },
+            {
+                "item_name": "ماندولين شيكولاته 350 جم",
+                "quantity": "1"
+            },
+            {
+                "item_name":"شويبس رومان 1ل",
+                "quantity": "1"
+            }
+        ],
+        "taxes":"0",
+        "total_amount": "40.00"
+    },
+    {
+        "image": "ar_image(24).jpg",
+        "store_name": "جلويات الدمياطي",
+        "receipt_number": "216719",
+        "date": "24/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "تورته بالصوره ٢٠^٤٠ ",
+                "quantity": "1"
+            },
+            {
+                "item_name": "شمع نافوره كبير",
+                "quantity": "2"
+            },
+            {
+                "item_name": "شمع H.B.D صغير",
+                "quantity": "1"
+            }
+
+        ],
+        "taxes": null,
+        "total_amount": "624.00"
+    },
+{
+        "image": "ar_image(25).jpg",
+        "store_name": ["Carrefour","كارفور"],
+        "receipt_number": "36829794",
+        "date": "17/09/2022",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": ["Familia Kitchen Towels-93 Rolls","فاميليا مناديل مطبخ ٩٣ رول"],
+                "quantity": "1"
+            },
+            {
+                "item_name": ["Pril Dishwashing Liquid Green Lemon -2.5 Liter","سائل غسيل الأطباق من بريل بقوة 100 ليمونة- 2.50 كجم سائل جنرال فريش بريمافيرا - 700 جم"],
+                "quantity": "1"
+            },
+            {   "item_name":["Sprite Cans - 330ml -6 Pieces","سبرايت - 330 مل -6 قطع"],
+                "quantity": "2"
+            },
+            {   "item_name": ["Tide Auromatic Powder Detergent - Lavender Scent - 7 Kg","تايد مسحوق غسيل أوتوماتيك - رائحة اللافندر - 7 كيلو جرام"],
+                "quantity": "2"
+            },
+            {
+                "item_name":["Zeina Compressed Kitchen Roll - 2 Roll","زينة بكرة مناديل مطبخ مضغوطة - 2 بكرة"],
+                "quantity": "2"
+            }
+
+        ],
+        "taxes": "0.00",
+        "total_amount": "357.05"
+    },
+    {
+        "image": "ar_image(26).jpg",
+        "store_name": "مجمع الجلاء",
+        "receipt_number": "201044-01107879",
+        "date": "03/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "لحوم بقري فريش ابو سحبل ختم ازرق",
+                "quantity": "3.39"
+            }
+        ],
+        "taxes": null,
+        "total_amount": "423.75"
+    },
+    {
+        "image": "ar_image(27).jpg",
+        "store_name": ["McDonald's","McDonalds Chillout Gardenia"],
+        "receipt_number": "1480253",
+        "date": "13/09/2022",
+        "currency": null,
+        "items": [
+            {
+                "item_name": ["REGOK","كوكاكولا حجم عادي"],
+                "quantity": "1"
+            },
+            {
+                "item_name": ["GCHSSND","Grand Chicken Combo & Chi","جراند تشكن سبايسي"], 
+                "quantity": "1"
+            },
+            {
+                "item_name": ["REGFRY","بطاطس حجم عادي"],
+                "quantity": "1"
+            }
+        ],
+        "taxes": "13.51",
+        "total_amount": "110.01"
+    },
+    {
+        "image": "ar_image(28).jpg",
+        "store_name": "HnM",
+        "receipt_number": "01428127",
+        "date": "23/10/2021",
+        "currency": "EGP",
+        "items": [
+            {
+                "item_name": "NEWTON LIC 2PCS SET",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ORGANIC TERRY HOOD RABBIT",
+                "quantity": "1"
+            },
+            {
+                "item_name": "TONY LICENSE SET",
+                "quantity": "1"
+            },
+            {
+                "item_name": "CARLOS SHORTS",
+                "quantity": "2"
+            },
+            {
+                "item_name": "ALGOT BODY LS FANCY 2PACK",
+                "quantity": "1"
+            },
+            {
+                "item_name": "TERRY SOLID 5-PACK",
+                "quantity": "1"
+            }
+        ],
+        "taxes": null,
+        "total_amount": null
+    },
+    {   "image": "ar_image(29).jpg",
+        "store_name": "McDonald's",
+        "receipt_number": "37",
+        "date": "21/10/2021",
+        "currency": null,
+        "items": [
+            {
+                "item_name": ["Lrg 9 Nuggets","ناجتس 9 كبير"],
+                "quantity": "1"
+            },
+            {
+                "item_name": ["9 PCS Nuggets","ماك ناجتس 9 قطع"],
+                "quantity": "1"
+            },
+            {
+                "item_name": ["Barbeque Sauce","صوص باربكيو"],
+                "quantity": "2"
+            },
+            {
+                "item_name": ["Large Sprite","سبرايت حجم كبير"],
+                "quantity": "1"
+            },
+            {
+                "item_name": ["Large Fries","بطاطس حجم كبير"],
+                "quantity": "1"
+            },
+            {
+                "item_name": ["Fudge Sundae","صانداي شيكولاته"],
+                "quantity": "1"
+            },
+            {
+                "item_name": "MDS Service",
+                "quantity": "1"
+            }
+        ],
+        "taxes": "17.68",
+        "total_amount": "143.98"
+    },
+    {
+        "image": "ar_image(30).jpg",
+        "store_name": [ "Carrefour", "كارفور"],
+        "receipt_number": "314",
+        "date": "60201023202220972146",
+        "currency": null,
+        "items": [
+            {
+                "item_name": "رنجه سوبر جامبو",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ميراندا برتقال 250م",
+                "quantity": "1"
+            },
+            {
+                "item_name": "سفن اب 250 م",
+                "quantity": "1"
+            },
+            {
+                "item_name": "بيبسي كولا 250م",
+                "quantity": "1"
+            },
+            {
+                "item_name": "كريستال ذرة 2.2 ل",
+                "quantity": "1"
+            },
+            {
+                "item_name": "دولفين نونة 185ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "دولفين نونة 200ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "واينز مايونيز310ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "وارفست فل 1لتر",
+                "quantity": "1"
+            },
+            {
+                "item_name": "قلية زيت 2.100ل",
+                "quantity": "1"
+            },
+            {
+                "item_name": "خالتي بهية 1ك",
+                "quantity": "1"
+            },
+            {
+                "item_name": "انكور زبدة 400ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "الميزان طحينة460ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "العروسه شاي 100ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "دريم كيك23ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "دريم ايس كريم80جم",
+                "quantity": "2"
+            },
+            {
+                "item_name": "مصرية مكرونة 350ج",
+                "quantity": "1"
+            },
+            {
+                "item_name": "مصرية مكرونة 1ك",
+                "quantity": "2"
+            },
+            {
+                "item_name": "مصرية شعرية 1ك",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ضحى دقيق 1ك",
+                "quantity": "1"
+            },
+            {
+                "item_name": "ذرة سكرية 3 قطعة",
+                "quantity": "1"
+            },
+            {
+                "item_name": "اريال جل3.3 كج",
+                "quantity": "2"
+            }
+
+
+
+        ],
+        "taxes": null,
+        "total_amount": "998.25"
     }
+
+
+
 
 ]

@@ -1,0 +1,76 @@
+# Heddh Instrument
+
+الشرقي القاهرة
+جسر المريسي - نادي الشمس
+
+## Money Receipt
+
+No /104236
+Branch / جسر المريسي - نادي الشمس
+Tel /16191
+
+Patient Name / اميرة الجسر عبدالغفار
+Received amount / 189.00 One Hundred Eighty Nine
+Egyptian Pound Only
+
+Visit Date /19/09/2022
+Patient No. /10-22853
+Acc No /54220911563
+
+Service total due 189.00
+
+|  Test Code | Service name | Service price  |
+| --- | --- | --- |
+|  316 | Complete Blood Picture (CBC) | 10  |
+|  207 | Serum Urea | 10  |
+|  273 | SGOT (AST) | 10  |
+|  274 | SGPT (ALT) | 10  |
+|  275 | Albumin, Serum | 10  |
+|  281 | Serum Creatinine | 10  |
+|  283 | Serum Magnesium, | 14  |
+|  288 | Serum Sodium and Potassium | 26  |
+|  291 | Uric Acid, Serum | 10  |
+|  537 | Urine Analysis | 9  |
+|  567 | L-Reactive Protein (LRP) Titre | 23  |
+|  610 | Serum Phosphorus | 13  |
+|  293 | Total and Ionized Calcium | 29  |
+|  Services No. | 13 | Sub total | 189.0000
+01  |
+| --- | --- | --- | --- |
+|  Test Code | Service | Price  |
+| --- | --- | --- |
+|  x19 | Web Result | 9.00  |
+|  x23 | SMS | 9.00  |
+|  Sub total | 0  |
+| --- | --- |
+
+Remaining: 9.99999997
+Grand Total 189.0000
+473243E-
+07
+
+|  Trans | Payment Method | Amount  |
+| --- | --- | --- |
+|  107935 | Cash | 189.00  |
+
+Receipt Date: 19/09/2022
+Recycled by (Accountant):
+Result Receipt Date:
+
+تسوية الحساب لالاسترداد بحد المسح 2 يوم لانهائية الشهر: يوم اقرب
+نظام الكمبيوتر لا يسمم بطباعة بقسم التحاليل الا بعد سداد كامل لقيمة التحاليل
+
+Heddh Instrument
+الشرقي القاهرة
+جسر المريسي - نادي الشمس
+Gis: El Suez radio Elshams
+
+## Web resulting account
+
+Website URL: www.alfalaboratory.com
+User name: 19-22853
+Password: 7970742
+
+Printed By: ية تبارك الله أحمد
+Printed Date: 16/09/2022 05:10 PM
+All Rights Reserved © National Technology

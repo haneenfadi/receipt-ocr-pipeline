@@ -1,0 +1,38 @@
+{
+  "store_name": "Carrefour",
+  "receipt_number": "000002144218",
+  "date": null,
+  "currency": null,
+  "items": [
+    {
+      "item_name": "100 مللي باسيل",
+      "quantity": "9"
+    },
+    {
+      "item_name": "زفير ملويكراناج",
+      "quantity": "4"
+    },
+    {
+      "item_name": "قنبلة",
+      "quantity": "4"
+    },
+    {
+      "item_name": "إنكلترا زفير ملويكراناج",
+      "quantity": "3"
+    },
+    {
+      "item_name": "فانتون زفير ملويكراناج",
+      "quantity": "6"
+    },
+    {
+      "item_name": "ذرية زفير ملويكراناج",
+      "quantity": "1"
+    },
+    {
+      "item_name": "دهرية بلازما تاتاج",
+      "quantity": "4"
+    }
+  ],
+  "taxes": null,
+  "total_amount": null
+}

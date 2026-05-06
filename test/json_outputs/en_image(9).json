@@ -1,0 +1,62 @@
+{
+  "store_name": "Heddh Instrument",
+  "receipt_number": "104236",
+  "date": "19/09/2022",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "Complete Blood Picture (CBC)",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Serum Urea",
+      "quantity": "1"
+    },
+    {
+      "item_name": "SGOT (AST)",
+      "quantity": "1"
+    },
+    {
+      "item_name": "SGPT (ALT)",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Albumin, Serum",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Serum Creatinine",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Serum Magnesium",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Serum Sodium and Potassium",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Uric Acid, Serum",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Urine Analysis",
+      "quantity": "1"
+    },
+    {
+      "item_name": "L-Reactive Protein (LRP) Titre",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Serum Phosphorus",
+      "quantity": "1"
+    },
+    {
+      "item_name": "Total and Ionized Calcium",
+      "quantity": "1"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "189.00"
+}

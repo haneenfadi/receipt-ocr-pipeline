@@ -1,0 +1,14 @@
+{
+  "store_name": "Monginis Bakery",
+  "receipt_number": "0090-002-139508",
+  "date": "18/10/2021",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "جانوة بوستاجو شكولاتة",
+      "quantity": "12"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "150.00"
+}

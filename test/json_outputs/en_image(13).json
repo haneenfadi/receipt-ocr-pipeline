@@ -1,0 +1,18 @@
+{
+  "store_name": "almaza",
+  "receipt_number": "116",
+  "date": "14/09/2022",
+  "currency": null,
+  "items": [
+    {
+      "item_name": "Chicken pops",
+      "quantity": "2"
+    },
+    {
+      "item_name": "Fries",
+      "quantity": "2"
+    }
+  ],
+  "taxes": null,
+  "total_amount": "130.00"
+}

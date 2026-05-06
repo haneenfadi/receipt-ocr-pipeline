@@ -1,0 +1,44 @@
+# Abu Auf
+there's more to nuts
+
+Syria
+Sales Receipt
+
+Customer Name: _______________
+Address: _________________________
+Phone Number: _________________
+
+Transaction #: 205810
+Date: 2021-10-28
+Cashier: ______________________
+Time: 08:53:13 PM
+Register: 1
+
+|  Description | Qty/Weight | Amount  |
+| --- | --- | --- |
+|  Columbian Coffee Espresso 250g | 1.000@75.00 L.E | 75 L.E  |
+|  Instant Coffee Classic Piece | 1.000@1.00 L.E | 0 L.E  |
+|  Instant Coffee Gold Piece | 1.000@1.50 L.E | 0 L.E  |
+|  Total: |   | 75.00  |
+|  Cash: |   | 100.00 L.E  |
+|  Total Tendered: |   | 100.00  |
+|  Change Due: |   | -25.00  |
+
+Receipt Details
+|  Discounts: | 2.50  |
+| --- | --- |
+|  SubTotal: | 75.00  |
+|  Shipping: | 0.00  |
+|  VAT: | 0.00  |
+|  Total Items Sold: | 3  |
+
+Thank you for shopping
+Hi time 19969
+www.abu-auf.com
+support@abu-auf.com
+Facebook abu auf - Instagram abu auf
+
+د. جاد الاحتكاك بالاتصال في حالة السر على ارجو ايذر من شريطه
+سجل مجاري : 10361
+لطيفة
+بطاقة فريسة رقم : 028 141

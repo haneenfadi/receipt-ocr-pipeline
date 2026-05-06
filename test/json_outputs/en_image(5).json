@@ -1,0 +1,14 @@
+{
+  "store_name": "Breadfast",
+  "receipt_number": "3121-5394525",
+  "date": "31/08/2022",
+  "currency": "EGP",
+  "items": [
+    {
+      "item_name": "Breadfast BYLD Keto Chocolate Bar (60g)",
+      "quantity": "5"
+    }
+  ],
+  "taxes": "17.19",
+  "total_amount": "159.50"
+}
