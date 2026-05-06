@@ -11,7 +11,7 @@ AI-powered receipt data extraction system that converts images into structured d
 
 ## Technical Features
 
-- **Smart Image Processing:** Automatic quality enhancement before OCR
+- **Smart Image Processing:** Automatic quality enhancement before OCR — see [test/image_processing.md](test/image_processing.md)
 - **Structured Data Output:** Clean JSON format for easy integration
 - **Instant Results:** Upload and extract in seconds
 - **Auto-Save:** Direct database storage without manual steps
@@ -125,6 +125,23 @@ Receipt image in JPG, PNG, or JPEG format
     "total_amount": "38.00"
 }
 ```
+
+---
+
+## Evaluation
+
+The current benchmark in [test/results.md](test/results.md) was run on 50 receipts. Overall, the pipeline is working well for core receipt fields, while item-level extraction still has room to improve.
+
+| Metric | Score |
+|--------|-------|
+| Store name accuracy | 80.0% |
+| Receipt number accuracy | 90.0% |
+| Date accuracy | 94.0% |
+| Currency accuracy | 98.0% |
+| Item name accuracy | 75.3% |
+| Quantity accuracy | 100.0% |
+
+Most reliable fields are currency, date, and quantity. The main weakness is item name extraction, especially on noisy, multilingual, or crowded receipts.
 
 ---
 
