@@ -162,9 +162,9 @@ cp .env.example .env
 
 Edit `.env`:
 ```dotenv
-API_AUTH_PASSWORD="your-auth-password"
 GROQ_API_KEY="your-groq-api-key"
 MISTRAL_API_KEY="your-mistral-api-key"
+SECRET_KEY="your-secret-key-for-jwt"
 APP_ENV="dev"
 ```
 
