@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=r"src\.env")
 api_key = os.getenv("GROQ_API_KEY")
 
+
 class ReceiptQuerySystem:
     """
     system to ask about receipt using NLP
@@ -48,7 +49,7 @@ class ReceiptQuerySystem:
 
         """
 
-    #write it in config them call it in the prompt, and make sure to include it in the prompt.
+    # write it in config them call it in the prompt, and make sure to include it in the prompt.
     arabic_ambiguity_rules = {"""
         "كم فاتورتي في [place]?" means "how much is my total bill at [place]?" → USE SUM
         "كم عدد فواتيري في [place]?" means "how many receipts do I have at [place]?" → USE COUNT
@@ -95,7 +96,7 @@ class ReceiptQuerySystem:
 
         {user_question}
         SQL:"""
-        
+
         try:
             response = requests.post(
                 "https://api.groq.com/openai/v1/chat/completions",
@@ -121,15 +122,14 @@ class ReceiptQuerySystem:
 
         except Exception as e:
             raise Exception(f"error on generate SQL: {str(e)}")
-        
-        
+
     def execute_sql(self, sql_query: str, user_id: int | None = None) -> Dict:
         try:
             # Clean up the query
             sql_query = sql_query.strip()
             if sql_query.endswith(";"):
                 sql_query = sql_query[:-1].strip()
-            
+
             if not sql_query.upper().startswith("SELECT"):
                 return {
                     "success": False,
@@ -147,7 +147,8 @@ class ReceiptQuerySystem:
                 }
 
             lowered_query = sql_query.lower()
-            blocked_tokens = ["pragma", "attach", "detach", "insert", "update", "delete", "drop", "alter"]
+            blocked_tokens = ["pragma", "attach", "detach",
+                              "insert", "update", "delete", "drop", "alter"]
             if any(token in lowered_query for token in blocked_tokens):
                 return {
                     "success": False,
@@ -195,7 +196,6 @@ class ReceiptQuerySystem:
                 "query": sql_query
             }
 
-   
     def format_answer(self, user_question: str, sql_results: Dict) -> str:
         if not sql_results.get("success"):
             return sql_results.get("error", "Unknown error")
@@ -232,7 +232,6 @@ class ReceiptQuerySystem:
             ensure_ascii=False,
             indent=2,
         )
-    
 
     def format_sql_answer(self, question: str, sql_results: Dict) -> str:
 
@@ -273,26 +272,18 @@ class ReceiptQuerySystem:
         except Exception as e:
             raise Exception(
                 f"error on generate format_sql_answer: {str(e)}")
-                
-                
-    def combined_answer(self, question: str, sql_results: Dict) -> str:
+
+    def combined_answer(self, question: str, sql_results: Dict) -> dict:
         if not sql_results["success"]:
-            return json.dumps(
-                {
-                    "raw_data": [],
-                    "insight_ar": sql_results.get("error", "Unknown error"),
-                },
-                ensure_ascii=False,
-                indent=2,
-            )
+            return {
+                "raw_data": [],
+                "insight_ar": sql_results.get("error", "Unknown error"),
+            }
 
         raw_data = sql_results.get("data", [])
         insight = self.format_sql_answer(question, sql_results)
 
-        combined = {
+        return {
             "raw_data": raw_data,
             "insight_ar": insight
         }
-
-        return json.dumps(combined, ensure_ascii=False, indent=2)
-
