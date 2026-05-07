@@ -16,10 +16,16 @@ app = FastAPI(
     title="Receipt Processing API",
     description="API for processing receipt images"
 )
-    
+
+
 @app.get("/")
 async def root():
-    return {"message": "API is running. Go to /api/v1/health to check status."}
+    return {
+        "message": "API is running. Go to /api/v1/health to check status."
+    }
+
+# Simulation only: simple IP whitelist for dev/testing.
+# Do not use as-is in production; headers can be spoofed.
 
 
 class IPBlockMiddleware(BaseHTTPMiddleware):
@@ -49,10 +55,10 @@ class IPBlockMiddleware(BaseHTTPMiddleware):
 
         return await call_next(request)
 
+
 app.include_router(auth_router)
 app.include_router(base_router)
 app.include_router(router)
 app.include_router(receipts_assistant_router)
 
 app.add_middleware(IPBlockMiddleware)
-
